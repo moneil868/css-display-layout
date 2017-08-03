@@ -1,0 +1,97 @@
+html {
+  font-family: "Helvetica", Arial, serif;
+
+}
+
+h1 {
+  font-size: 35px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.width-80 {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.main-top {
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+.main-bottom {
+  background: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
+
+.main-menu {
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.main-menu li{
+      display: inline-block;
+      background-color: #c0c0c0;
+      padding: 15px;
+      font-size: 18px;
+}
+
+
+.main-menu > li > a {
+      color: white;
+
+}
+
+.photo-grid {
+  display: inline-block;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+.green-background {
+    background-color: lightgreen;
+}
+
+.special-six {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.image-item {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 1px;
+}
+
+.image-item > img {
+  max-width: 100%;
+}
+
+.image-desc {
+  background-color: #ffb300;
+  padding: 10px;
+  margin: 0 3px 15px;
+}
